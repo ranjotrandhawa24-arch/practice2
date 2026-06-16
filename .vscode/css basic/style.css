@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card{
+  text-align: center;
+  
+   
+}
+.avatar{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.card:hover {
+ 
+  box-shadow: 0
+}
+.name{
+  display: flex;
+  justify-content: center;
+  margin:0;
+  font-size: 1.5rem;
+  color: rgb(50, 18, 18);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  
+}
+.followbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  margin: 5%;
+}
+.bio{
+  color: gray;
+  margin: 0%;
+
+}
+
+button:hover {
+  background: #1647ce;
+  
+}
+.margin1{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-radius: 15px;
+ 
+}
+.button2{
+  min-height: 40px;
+  min-width: auto;
+  padding: 10px 20px;
+ cursor: pointer;
+  border-radius: 20px;
+}

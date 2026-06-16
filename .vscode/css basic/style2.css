@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #9c8e8e;
+}
+.navlogo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   list-style-type: none;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.navlinks a:hover{
+    color: rgb(187, 35, 85);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
